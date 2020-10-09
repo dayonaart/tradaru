@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "260298365372",
+    "firebase_url": "https://tradaru-3f345.firebaseio.com",
+    "project_id": "tradaru-3f345",
+    "storage_bucket": "tradaru-3f345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260298365372:android:316f004532e2c4be82f3b9",
+        "android_client_info": {
+          "package_name": "id.indonesia.tradaru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260298365372-7q7emfgkom6m0dratf50o55fdirr973b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ7PmZ61B5ftOqGjgS9jZH2INy9f4TYlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260298365372-7q7emfgkom6m0dratf50o55fdirr973b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
