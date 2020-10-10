@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tradaru/main-tab.dart';
 import 'package:tradaru/services/firebasesdk.dart';
 
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await FirebaseSdk().init();
+void main() {
   runApp(StartingPage());
 }
 
@@ -14,6 +12,13 @@ class StartingPage extends StatefulWidget {
 }
 
 class _StartingPageState extends State<StartingPage> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    FirebaseSdk().init();
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
